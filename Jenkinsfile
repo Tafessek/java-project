@@ -9,9 +9,6 @@ node('linux') {
 		sh "ant -f test.xml -v"
 	}
 	
-	stage('Deploy') {
-		
-	}
 	
 
 	stage('Report') {
