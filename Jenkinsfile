@@ -10,7 +10,7 @@ node('linux') {
 	}
 	stage('Deploy') {
 		
-	
+	}
 
 	stage('Report') {
 		withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: 'AWScredential', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
