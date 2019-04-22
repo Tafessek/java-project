@@ -1,2 +1,2 @@
 # java-project
-test connection to Jenkins 
+test connection 
