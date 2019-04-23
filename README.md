@@ -1,2 +1,2 @@
 # java-project
-test connection 
+test gitHub trigger
