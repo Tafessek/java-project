@@ -8,7 +8,6 @@ node('linux') {
 	stage('Build') {
 
 		sh "ant -f build.xml -v"
-
 	}
 
 	stage('Report') {
@@ -17,7 +16,7 @@ node('linux') {
 		}
 
 	}
-
+	
 	stage('Deploy') {
 
 		sh 'aws s3 cp /workspace/java-pipeline/dist/rectangle-${BUILD_NUMBER}.jar s3://seis-665assignment10/'
