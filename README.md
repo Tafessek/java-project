@@ -1,2 +1,2 @@
 # java-project
-test gitHub trigger
+test java-project
