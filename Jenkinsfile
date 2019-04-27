@@ -2,7 +2,7 @@ pipeline {
 	agent any
 	   stages {
 		stage ('Unit Tests') {
-			sh "ant -f test.xml -v"
+			sh "-f test.xml -v"
 			
 		}
 		
