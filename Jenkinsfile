@@ -5,11 +5,6 @@ pipeline {
 			sh "ant -f test.xml -v"
 			
 		}
-		stage ('Results') {
-			
-			junit 'reports/*.xml'
-		}
-		
 		
 	}
 }
